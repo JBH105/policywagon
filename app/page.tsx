@@ -106,12 +106,12 @@ export default function Page() {
                 <h1>Save on Auto Insurance the Easy Way</h1>
                 <h4>Instant results. Better rates. No extra fees.</h4>
                 <div className="index--getStarted--M5xPa">
-                  <button
-                    type="button"
+                  <a
+                    href="/form"
                     className="PrimaryButton--primary--sRdbS GlobalButton--button--JDCYo Button--button--Iuhfg Button--small--R40YS"
                   >
                     Get Free Quote
-                  </button>
+                  </a>
                 </div>
                 <span className="index--smallText--DOfxD">
                   Complete our form and save up to $900/year.
@@ -150,12 +150,12 @@ export default function Page() {
                           such as age, driving record, credit score, type of
                           vehicle and location.
                         </p>
-                        <button
-                          type="button"
+                        <a
+                          href="/form"
                           className="PrimaryButton--primary--sRdbS GlobalButton--button--JDCYo Button--button--Iuhfg Button--small--R40YS"
                         >
                           See Your Price
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -215,12 +215,12 @@ export default function Page() {
                 <h2>Get started now — it’s free!</h2>
                 <h4>We do the leg work, you do the saving</h4>
                 <div className="index--getStarted--M5xPa">
-                  <button
-                    type="button"
+                  <a
+                    href="/form"
                     className="SecondaryButton--secondary--fdt0y GlobalButton--button--JDCYo Button--button--Iuhfg Button--small--R40YS"
                   >
                     See your Price
-                  </button>
+                  </a>
                 </div>
                 <span className="cta--smallText--5MTj5">
                   Risk free - Takes 3-5 minutes to complete
