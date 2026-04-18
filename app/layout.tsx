@@ -3,8 +3,8 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PolicyWagon",
-  description: "PolicyWagon website migration",
+  title: "CoveragePrincipal",
+  description: "CoveragePrincipal website migration",
 };
 
 export default function RootLayout({

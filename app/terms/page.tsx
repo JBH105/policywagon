@@ -14,7 +14,7 @@ export default function Page() {
               >
                 <img
                   className="logoContainer"
-                  src="/images/logoSlim.svg"
+                  src="/images/logo1.svg"
                   loading="eager"
                 />
               </a>
@@ -68,7 +68,7 @@ export default function Page() {
                 <div className="d-flex align-items-center">
                   <img
                     className="logoContainer"
-                    src="/images/logoSlim.svg"
+                    src="/images/logo1.svg"
                     loading="eager"
                   />
                   <button
@@ -167,10 +167,10 @@ export default function Page() {
                         <br />
                         <br />
                         <p>
-                          PolicyWagon (\"we,\" \"us\" or \"our\") owns and
+                          CoveragePrincipal (\"we,\" \"us\" or \"our\") owns and
                           operates the website located at{" "}
-                          <a href="/">policywagon.com</a>, (the
-                          \"Site\"). PolicyWagon provides and maintains this
+                          <a href="/">coverageprincipal.com</a>, (the
+                          \"Site\"). CoveragePrincipal provides and maintains this
                           site for your information, conditioned on your
                           acceptance, without modification, of the terms,
                           conditions and notices contained in this Terms of Use.
@@ -223,7 +223,7 @@ export default function Page() {
                             Marketing Partners
                           </a>{" "}
                           may enforce any provision within these Terms of the
-                          Privacy Policy wherein policywagon.com (including any
+                          Privacy Policy wherein CoveragePrincipal.com (including any
                           reference to, \"we\", \"our\", or \"us\") is
                           referenced.
                         </p>
@@ -252,12 +252,12 @@ export default function Page() {
                         <h3>Products and Services</h3>
                         <br />
                         <p>
-                          You understand and agree that PolicyWagon is not an
+                          You understand and agree that CoveragePrincipal is not an
                           insurance provider and is not the creditor for or
                           issuer of, any of the products featured on the Site.
                           Any products or services advertised at this site or
                           made available to you by any of our partners after you
-                          leave the PolicyWagon site, are by and remain the sole
+                          leave the CoveragePrincipal site, are by and remain the sole
                           responsibility of the respective product vendors and
                           service providers.
                         </p>
@@ -270,10 +270,10 @@ export default function Page() {
                           request confirmation does not signify any acceptance
                           of your application, nor does it constitute
                           confirmation of any offer to supply you with an
-                          insurance policy. PolicyWagon reserves the right at
+                          insurance policy. CoveragePrincipal reserves the right at
                           any time after receipt of your information via form to
                           accept or decline your request for any reason.
-                          PolicyWagon is not responsible for requests that
+                          CoveragePrincipal is not responsible for requests that
                           cannot be supplied or unsuccessful application
                           requests arising from an applicant's ineligibility to
                           qualify for the insurance policy opportunity.
@@ -296,18 +296,18 @@ export default function Page() {
                           statutes, ordinances and regulations regarding your
                           use of the Site and your purchase of products or
                           services through the Site's third party affiliates.
-                          PolicyWagon may, in its sole discretion, report actual
+                          CoveragePrincipal may, in its sole discretion, report actual
                           or perceived violations of law to law enforcement or
-                          other appropriate authorities. If PolicyWagon becomes
+                          other appropriate authorities. If CoveragePrincipal becomes
                           aware, through a complaint or otherwise, of any
                           potential or suspected violation of these Terms of Use
                           or of its Privacy Policy (\"Privacy Policy\"),
-                          PolicyWagon the suspected violation and the
+                          CoveragePrincipal the suspected violation and the
                           appropriate enforcement action. During the
-                          investigation, PolicyWagon may suspend services to any
+                          investigation, CoveragePrincipal may suspend services to any
                           customer being investigated and/or remove any material
                           related to the aforementioned consumer from
-                          PolicyWagon's servers. You agree to cooperate fully
+                          CoveragePrincipal's servers. You agree to cooperate fully
                           with any such investigation. You acknowledge that
                           violations of the Terms of Use or the Privacy Policy
                           could be subject to criminal or civil penalties.
@@ -321,22 +321,22 @@ export default function Page() {
                           graphics, designs and other properties, including all
                           software, text and images appearing on this site are
                           protected intellectual properties owned by
-                          PolicyWagon, its licensees, or other third parties who
+                          CoveragePrincipal, its licensees, or other third parties who
                           have authorized use of such properties on the Site.
                         </p>
                         <br />
                         <br />
                         <p>
-                          PolicyWagon grants you permission to view and make
+                          CoveragePrincipal grants you permission to view and make
                           copies of documents, pages, images or other materials
                           or content on this site for the purposes of submitting
-                          a request for an insurance policy from PolicyWagon or
+                          a request for an insurance policy from CoveragePrincipal or
                           its affiliates for your non-commercial, personal use.
-                          PolicyWagon reserves all other rights in this web site
+                          CoveragePrincipal reserves all other rights in this web site
                           and its contents. You may not distribute, display,
                           transmit or disseminate any such documents, pages,
                           images, materials or content without the prior written
-                          consent of PolicyWagon. Except as expressly provided
+                          consent of CoveragePrincipal. Except as expressly provided
                           on this site, nothing contained on this site shall be
                           construed as conferring any right or license under any
                           trademark, copyright or other intellectual property
@@ -349,12 +349,12 @@ export default function Page() {
                         </h3>
                         <br />
                         <p>
-                          PolicyWagon uses reasonable efforts to ensure that the
+                          CoveragePrincipal uses reasonable efforts to ensure that the
                           information on this site is accurate, but cannot
-                          guarantee such accuracy. PolicyWagon makes no
+                          guarantee such accuracy. CoveragePrincipal makes no
                           representations regarding the use or results of any
                           content on the Site as to its accuracy, reliability or
-                          any other matter. NEITHER PolicyWagon NOR ANY OTHER
+                          any other matter. NEITHER CoveragePrincipal NOR ANY OTHER
                           PARTY INVOLVED IN CREATING, PRODUCING OR DELIVERING
                           THIS SITE SHALL BE LIABLE FOR ANY DIRECT, INCIDENTAL,
                           CONSEQUENTIAL, SPECIAL, INDIRECT OR PUNITIVE DAMAGES
@@ -373,7 +373,7 @@ export default function Page() {
                         <br />
                         <p>
                           The Site may contain links to sites maintained by
-                          third parties. PolicyWagon is not responsible for the
+                          third parties. CoveragePrincipal is not responsible for the
                           content or privacy policies of those sites, and the
                           existence of such links should not be considered an
                           endorsement or recommendation of those sites or of any
@@ -385,17 +385,17 @@ export default function Page() {
                         <h3>Privacy</h3>
                         <br />
                         <p>
-                          PolicyWagon's Privacy Policy, which is incorporated
+                          CoveragePrincipal's Privacy Policy, which is incorporated
                           herein by reference, is applicable to any data
                           supplied through the Site in accordance with the
                           Privacy Policy available at{" "}
-                          <a href="privacy">policywagon.com/privacy</a>. The
-                          Privacy Policy sets out your rights and PolicyWagon's
+                          <a href="privacy">CoveragePrincipal.com/privacy</a>. The
+                          Privacy Policy sets out your rights and CoveragePrincipal's
                           responsibilities with regard to your personal
-                          information. PolicyWagon will not use your information
+                          information. CoveragePrincipal will not use your information
                           in any way inconsistent with the purposes and
                           limitations provided in the Privacy Policy. You agree
-                          that PolicyWagon, in its sole discretion, may modify
+                          that CoveragePrincipal, in its sole discretion, may modify
                           the Privacy Policy, and you further agree that, by
                           using the Site after such modifications become
                           effective, you have agreed to these modifications. You
@@ -407,13 +407,13 @@ export default function Page() {
                         <h3>Security</h3>
                         <br />
                         <p>
-                          PolicyWagon utilizes secure technology to protect your
-                          personal information. Although PolicyWagon has taken
+                          CoveragePrincipal utilizes secure technology to protect your
+                          personal information. Although CoveragePrincipal has taken
                           reasonable measures to provide for the security of
                           certain information that you submit to the Site,
-                          PolicyWagon cannot guarantee that this information
+                          CoveragePrincipal cannot guarantee that this information
                           will not be intercepted or decrypted by others.
-                          PolicyWagon accepts no responsibility for such
+                          CoveragePrincipal accepts no responsibility for such
                           interception or decryption.
                         </p>
                         <br />
@@ -421,12 +421,12 @@ export default function Page() {
                         <h3>Site Use</h3>
                         <br />
                         <p>
-                          PolicyWagon is not your agent, or is it the agent of
+                          CoveragePrincipal is not your agent, or is it the agent of
                           the issuer of any insurance policies or any supplier
                           with respect to your decision to obtain an insurance
-                          policy or other insurance offerings. PolicyWagon may
+                          policy or other insurance offerings. CoveragePrincipal may
                           receive compensation for third parties for goods,
-                          facilities or services that PolicyWagon provides to
+                          facilities or services that CoveragePrincipal provides to
                           third parties under separate contract. Such goods,
                           facilities or services may or may not relate in any
                           way to your use of the Site. You agree to any such
@@ -445,7 +445,7 @@ export default function Page() {
                           venue for any litigation arising from your use of or
                           orders made on the Site shall be an appropriate
                           federal or state court located in Delaware.
-                          PolicyWagon makes no representations that the content
+                          CoveragePrincipal makes no representations that the content
                           in the Site is appropriate for access outside the
                           United States. Those who choose to access the Site
                           from outside the United States do so on their own
@@ -475,9 +475,9 @@ export default function Page() {
                           </a>
                           . You are not required to provide this consent to
                           purchase goods or services offered on{" "}
-                          <a href="/">policywagon.com</a>. Your consent
+                          <a href="/">coverageprincipal.com</a>. Your consent
                           simply allows us to contact you via these means. If
-                          you provide consent, PolicyWagon and our affiliates or{" "}
+                          you provide consent, CoveragePrincipal and our affiliates or{" "}
                           <a
                             href="disclaimer#marketingPartners"
                             target="_blank"
@@ -496,7 +496,7 @@ export default function Page() {
                         <h3>Modification</h3>
                         <br />
                         <p>
-                          PolicyWagon reserves the right to modify these Terms
+                          CoveragePrincipal reserves the right to modify these Terms
                           of Use from time to time. Your use of the Site after
                           such a modification will constitute your acceptance
                           of, and your agreement to, any new or amended terms
@@ -508,7 +508,7 @@ export default function Page() {
                         <br />
                         <p>
                           By using the Site, you agree to indemnify and hold
-                          PolicyWagon, its subsidiaries, affiliates, officers,
+                          CoveragePrincipal, its subsidiaries, affiliates, officers,
                           agents,{" "}
                           <a
                             href="disclaimer#marketingPartners"
@@ -622,7 +622,7 @@ export default function Page() {
                           Arbitrate. The AAA's rules and a form for initiating
                           arbitration proceedings is available on the AAA's site
                           at{" "}
-                          <a href='https://policywagon.com/terms/\"http://www.adr.org\"'>
+                          <a href='coverageprincipal.comterms/\"http://www.adr.org\"'>
                             http://www.adr.org
                           </a>
                           .
@@ -733,14 +733,14 @@ export default function Page() {
                         <br />
                         <p>
                           By using the Site, you understand and agree that
-                          PolicyWagon, at its sole discretion and without prior
+                          CoveragePrincipal, at its sole discretion and without prior
                           notice, may terminate your access to the Site and to
                           any services offered on the Site, and may remove any
-                          content you have provided if PolicyWagon believes that
+                          content you have provided if CoveragePrincipal believes that
                           such content violates or is inconsistent with these
                           Terms of Use or the Privacy Policy or their intent,
                           that your conduct is disruptive, or you have violated
-                          the law or the rights of PolicyWagon or another user.
+                          the law or the rights of CoveragePrincipal or another user.
                         </p>
                         <br />
                         <br />
@@ -748,7 +748,7 @@ export default function Page() {
                         <br />
                         <p>
                           All rights not expressly granted are reserved to
-                          PolicyWagon. The headings used in these Terms of Use
+                          CoveragePrincipal. The headings used in these Terms of Use
                           are intended for convenience only, and shall not
                           affect the construction and interpretation hereof or
                           thereof. A party's failure to insist upon or enforce
@@ -771,7 +771,7 @@ export default function Page() {
                         <h3>Contact Information</h3>
                         <br />
                         <p>
-                          PolicyWagon is always willing to answer your questions
+                          CoveragePrincipal is always willing to answer your questions
                           or concerns about this site. If you have questions
                           relating to the terms of your insurance policy, please
                           contact your insurance carrier directly.
@@ -780,11 +780,11 @@ export default function Page() {
                         <br />
                         <p>
                           <br /> <b>Mailing Address:</b> <br />
-                          <br /> Policywagon.com <br />
+                          <br /> CoveragePrincipal.com <br />
                           <br /> 8 The Green <br />
                           <br /> Dover, DE 19901 <br />
                           <br /> <b>Email:</b>{" "}
-                          <a href="https://policywagon.com/cdn-cgi/l/email-protection#04676b6a7065677044746b686d677d7365636b6a2a676b69">
+                          <a href="coverageprincipal.comcdn-cgi/l/email-protection#04676b6a7065677044746b686d677d7365636b6a2a676b69">
                             <span
                               className="__cf_email__"
                               data-cfemail="8deee2e3f9eceef9cdfde2e1e4eef4faeceae2e3a3eee2e0"
@@ -814,7 +814,7 @@ export default function Page() {
             </div>
             <div className="Footer--disclaimer--lR02g">
               <p>
-                Policywagon.com is an online insurance referral site. We match
+                CoveragePrincipal.com is an online insurance referral site. We match
                 and directly connect consumers with insurance companies and
                 agents across the US. Our site does not provide quotes directly
                 to consumers and is not in any way affiliated with any of the
@@ -825,7 +825,7 @@ export default function Page() {
                 information purposes only. This website contains affiliate
                 marketing links and phone numbers which means that the operators
                 of this site may get paid commission on sales of the products or
-                services advertised. Policywagon.com provides access to
+                services advertised. CoveragePrincipal.com provides access to
                 independent auto insurance services and acts as an affiliate to
                 these services. Your access to this website is subject to its{" "}
                 <a href="terms">Terms and Conditions</a>. California residents
@@ -835,7 +835,7 @@ export default function Page() {
               <p>
                 Please note that lowest listed rates and potential savings may
                 not be representative or available from all companies.
-                Policywagon.com matches users to advertisers and insurance
+                CoveragePrincipal.com matches users to advertisers and insurance
                 agents only after we've received certain information from you,
                 and your actual rates and savings will vary based on your
                 location, coverage limits, deductibles, driving records, type of

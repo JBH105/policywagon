@@ -14,7 +14,7 @@ export default function Page() {
               >
                 <img
                   className="logoContainer"
-                  src="/images/logoSlim.svg"
+                  src="/images/logo1.svg"
                   loading="eager"
                 />
               </a>
@@ -68,7 +68,7 @@ export default function Page() {
                 <div className="d-flex align-items-center">
                   <img
                     className="logoContainer"
-                    src="/images/logoSlim.svg"
+                    src="/images/logo1.svg"
                     loading="eager"
                   />
                   <button
@@ -156,7 +156,7 @@ export default function Page() {
                       <div className="col-12 col-md-8 offset-md-2 legal--legal--B1PVw">
                         <p>
                           {" "}
-                          Because PolicyWagon IS NOT AN INSURANCE PROVIDER, we
+                          Because CoveragePrincipal IS NOT AN INSURANCE PROVIDER, we
                           cannot ultimately decide whether or not you are
                           approved for an insurance policy. The operator of this
                           web site will share the information you provide with
@@ -176,14 +176,14 @@ export default function Page() {
                         <p>
                           {" "}
                           Because each insurance carrier is different and
-                          PolicyWagon has no control over the rates and fees
+                          CoveragePrincipal has no control over the rates and fees
                           each insurance carrier charges, we urge you to
                           carefully review the terms associated with the offer
                           before accepting or declining. Please remember that
                           you are never under any obligation to accept an offer
                           from an insurance carrier and you can cancel the
                           entire process at any time at your discretion.
-                          PolicyWagon cannot be held accountable for any charges
+                          CoveragePrincipal cannot be held accountable for any charges
                           or terms presented to you by a insurance carrier, and
                           we are in no way responsible for any agreement between
                           you and a insurance carrier. For details, questions or
@@ -229,12 +229,12 @@ export default function Page() {
                           {" "}
                           Testimonial Disclaimer: These are not actual
                           testimonials, but they are representative of
-                          PolicyWagon services.
+                          CoveragePrincipal services.
                         </p>
                         <h3>Advertising Disclosures</h3>
                         <p>
                           {" "}
-                          PolicyWagon does not charge you any fees to submit a
+                          CoveragePrincipal does not charge you any fees to submit a
                           insurance policy request, be connected with a
                           insurance carrier, or to receive insurance offers or
                           quotes. If you receive a quote or an insurance offer,
@@ -245,15 +245,15 @@ export default function Page() {
                           application and/or credit report, but until you agree
                           to pay the insurance carrier any fee(s) or sign any
                           insurance policy agreements, you may shop with
-                          PolicyWagon at no cost.
+                          CoveragePrincipal at no cost.
                         </p>
                         <p>
                           {" "}
                           The offers that you might receive are from companies
-                          from which PolicyWagon receives compensation. This
+                          from which CoveragePrincipal receives compensation. This
                           compensation may impact what offers you receive and
                           how/where products appear on this site (including, for
-                          example, the order in which they appear). PolicyWagon
+                          example, the order in which they appear). CoveragePrincipal
                           does not include all insurance carrier available in
                           the marketplace. If you are presented with an offer,
                           carefully review the details before signing.
@@ -1047,7 +1047,7 @@ export default function Page() {
             </div>
             <div className="Footer--disclaimer--lR02g">
               <p>
-                Policywagon.com is an online insurance referral site. We match
+                CoveragePrincipal.com is an online insurance referral site. We match
                 and directly connect consumers with insurance companies and
                 agents across the US. Our site does not provide quotes directly
                 to consumers and is not in any way affiliated with any of the
@@ -1058,7 +1058,7 @@ export default function Page() {
                 information purposes only. This website contains affiliate
                 marketing links and phone numbers which means that the operators
                 of this site may get paid commission on sales of the products or
-                services advertised. Policywagon.com provides access to
+                services advertised. CoveragePrincipal.com provides access to
                 independent auto insurance services and acts as an affiliate to
                 these services. Your access to this website is subject to its{" "}
                 <a href="terms">Terms and Conditions</a>. California residents
@@ -1068,7 +1068,7 @@ export default function Page() {
               <p>
                 Please note that lowest listed rates and potential savings may
                 not be representative or available from all companies.
-                Policywagon.com matches users to advertisers and insurance
+                CoveragePrincipal.com matches users to advertisers and insurance
                 agents only after we've received certain information from you,
                 and your actual rates and savings will vary based on your
                 location, coverage limits, deductibles, driving records, type of

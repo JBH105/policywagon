@@ -15,7 +15,7 @@ export default function Page() {
               >
                 <img
                   className="logoContainer"
-                  src="/images/logo.svg"
+                  src="/images/logo1.svg"
                   loading="eager"
                 />
               </a>
@@ -69,7 +69,7 @@ export default function Page() {
                 <div className="d-flex align-items-center">
                   <img
                     className="logoContainer"
-                    src="/images/logoSlim.svg"
+                    src="/images/logo1.svg"
                     loading="eager"
                   />
                   <button
@@ -241,7 +241,7 @@ export default function Page() {
             </div>
             <div className="Footer--disclaimer--lR02g">
               <p>
-                Policywagon.com is an online insurance referral site. We match
+                CoveragePrincipal.com is an online insurance referral site. We match
                 and directly connect consumers with insurance companies and
                 agents across the US. Our site does not provide quotes directly
                 to consumers and is not in any way affiliated with any of the
@@ -252,7 +252,7 @@ export default function Page() {
                 information purposes only. This website contains affiliate
                 marketing links and phone numbers which means that the operators
                 of this site may get paid commission on sales of the products or
-                services advertised. Policywagon.com provides access to
+                services advertised. CoveragePrincipal.com provides access to
                 independent auto insurance services and acts as an affiliate to
                 these services. Your access to this website is subject to its{" "}
                 <a href="terms">Terms and Conditions</a>. California residents
@@ -262,7 +262,7 @@ export default function Page() {
               <p>
                 Please note that lowest listed rates and potential savings may
                 not be representative or available from all companies.
-                Policywagon.com matches users to advertisers and insurance
+                CoveragePrincipal.com matches users to advertisers and insurance
                 agents only after we've received certain information from you,
                 and your actual rates and savings will vary based on your
                 location, coverage limits, deductibles, driving records, type of

@@ -14,7 +14,7 @@ export default function Page() {
               >
                 <img
                   className="logoContainer"
-                  src="/images/logoSlim.svg"
+                  src="/images/logo1.svg"
                   loading="eager"
                 />
               </a>
@@ -68,7 +68,7 @@ export default function Page() {
                 <div className="d-flex align-items-center">
                   <img
                     className="logoContainer"
-                    src="/images/logoSlim.svg"
+                    src="/images/logo1.svg"
                     loading="eager"
                   />
                   <button
@@ -160,9 +160,9 @@ export default function Page() {
                           entering your mobile telephone number and checking the
                           box as part of the submission of your insurance policy
                           request form on{" "}
-                          <a href="/">policywagon.com</a> , you
+                          <a href="/">coverageprincipal.com</a> , you
                           expressly consent to receive both non-marketing and
-                          marketing text messages from PolicyWagon(“Company”),
+                          marketing text messages from CoveragePrincipal(“Company”),
                           including text messages made with an autodialer at the
                           mobile telephone number(s) that you provided on your
                           request form. You may opt-out of these communications
@@ -175,23 +175,23 @@ export default function Page() {
                           use of Company’s services.
                         </p>
                         <h3>
-                          What is <a href="/">policywagon.com</a>?
+                          What is <a href="/">coverageprincipal.com</a>?
                         </h3>
                         <p>
                           {" "}
-                          <a href="/">Policywagon.com</a> consists of a
+                          <a href="/">coverageprincipal.com</a> consists of a
                           network of insurance carriers and advertisers who are
                           interested in, and can potentially provide, insurance
                           assistance to a consumer, generally in the form of a
                           policy or similar products.{" "}
-                          <a href="/">Policywagon.com</a> , after a
+                          <a href="/">coverageprincipal.com</a> , after a
                           consumer successfully opts in to receive them via
                           express written consent, may send text messages to
                           consumers interested in insurance products. Our text
                           messages are intended to provide the consumer with
                           information about the submission request, as well as
                           additional goods and services that may be offered by{" "}
-                          <a href="/">policywagon.com</a> . The
+                          <a href="/">coverageprincipal.com</a> . The
                           insurance carrier you might be connected with may also
                           contact you via electronic means to provide
                           information about your insurance policy request or to
@@ -216,7 +216,7 @@ export default function Page() {
                           you to the website where you opted-in initially. You
                           can also unsubscribe from all future notifications
                           from us by emailing us at{" "}
-                          <a href="https://policywagon.com/cdn-cgi/l/email-protection#c7a4a8a9b3a6a4b387b7a8abaea4beb0a6a0a8a9e9a4a8aa">
+                          <a href="coverageprincipal.comcdn-cgi/l/email-protection#c7a4a8a9b3a6a4b387b7a8abaea4beb0a6a0a8a9e9a4a8aa">
                             <span
                               className="__cf_email__"
                               data-cfemail="cfaca0a1bbaeacbb8fbfa0a3a6acb6b8aea8a0a1e1aca0a2"
@@ -229,7 +229,7 @@ export default function Page() {
                         <h3>Frequency of Messaging</h3>
                         <p>
                           {" "}
-                          <a href="/">Policywagon.com</a> alerts and
+                          <a href="/">coverageprincipal.com</a> alerts and
                           notifications are delivered via text messaging to your
                           mobile phone, approximately 2 message(s) a week.
                         </p>
@@ -240,7 +240,7 @@ export default function Page() {
                           a mobile communications subscription with a
                           participating carrier, or otherwise have access to a
                           mobile communications network through which{" "}
-                          <a href="/">policywagon.com</a> sends these
+                          <a href="/">coverageprincipal.com</a> sends these
                           notifications, as well as any carrier services
                           necessary to send text messages, and pay any service
                           fees associated with any such access.{" "}
@@ -272,11 +272,11 @@ export default function Page() {
                         </p>
                         <p>
                           {" "}
-                          <a href="/">Policywagon.com</a> reserves the
+                          <a href="/">coverageprincipal.com</a> reserves the
                           right at any time and from time to time to modify,
                           suspend, limit the use of, discontinue or permanently
                           cancel all or any portion of the Subscription.{" "}
-                          <a href="/">Policywagon.com</a> uses
+                          <a href="/">coverageprincipal.com</a> uses
                           reasonable efforts to ensure that its services are
                           always available. However, there will be occasions
                           when the services will be interrupted for maintenance,
@@ -295,7 +295,7 @@ export default function Page() {
                           in the Subscription. If you change your mobile
                           telephone number, you are responsible for notifying us
                           immediately by emailing us at{" "}
-                          <a href="https://policywagon.com/cdn-cgi/l/email-protection#54373b3a2035372014243b383d372d2335333b3a7a373b39">
+                          <a href="coverageprincipal.comcdn-cgi/l/email-protection#54373b3a2035372014243b383d372d2335333b3a7a373b39">
                             <span
                               className="__cf_email__"
                               data-cfemail="64070b0a1005071024140b080d071d1305030b0a4a070b09"
@@ -321,7 +321,7 @@ export default function Page() {
                           Our collection of information from you, such as your
                           mobile phone number, is subject to our Privacy Policy,
                           which is available at{" "}
-                          <a href="privacy">policywagon.com/privacy</a> .
+                          <a href="privacy">CoveragePrincipal.com/privacy</a> .
                         </p>
                         <h3>Age Requirements and Service Limitations</h3>
                         <p>
@@ -349,7 +349,7 @@ export default function Page() {
                           is posted to the Company’s website. You agree to
                           review these SMS Terms and Conditions periodically to
                           ensure that you are aware of any changes. Your
-                          continued consent to receive PolicyWagon text messages
+                          continued consent to receive CoveragePrincipal text messages
                           will indicate your acceptance of those changes.
                         </p>
                         <h3>Termination of Text Messaging</h3>
@@ -375,7 +375,7 @@ export default function Page() {
                             REPRESENTATIONS, EXPRESS OR IMPLIED, INCLUDING ANY
                             WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A
                             PARTICULAR USE. THE SERVICES OFFERED TO THE PUBLIC
-                            BY <a href="/">Policywagon.com</a> COULD
+                            BY <a href="/">coverageprincipal.com</a> COULD
                             INCLUDE INACCURACIES, OTHER ERRORS OR MAY NOT
                             FUNCTION IN THE MANNER YOU ANTICIPATED. FURTHERMORE,
                             WE ARE NOT RESPONSIBLE FOR CIRCUMSTANCES BEYOND OUR
@@ -390,7 +390,7 @@ export default function Page() {
                         <h3>Limitation of Liability</h3>
                         <p>
                           {" "}
-                          <a href="/">Policywagon.com</a> is not
+                          <a href="/">coverageprincipal.com</a> is not
                           responsible and will not be liable for any other
                           damages of any nature, including any incidental,
                           special or consequential damages (such as lost profits
@@ -410,19 +410,19 @@ export default function Page() {
                           Any comments, feedback, notes, messages, ideas,
                           suggestions or other communications (collectively,
                           “Comments”) sent by you to{" "}
-                          <a href="/">policywagon.com</a> shall be and
+                          <a href="/">coverageprincipal.com</a> shall be and
                           remain the exclusive property of{" "}
-                          <a href="/">policywagon.com</a> . With the
+                          <a href="/">coverageprincipal.com</a> . With the
                           exception of personally identifiable information
                           required to confirm your identity as the rightful
                           requestor of changes to your insurance policy request
                           form, subscriptions or other customer service related
                           requests, your submission of any such Comments shall
                           constitute an assignment to{" "}
-                          <a href="/">policywagon.com</a> of all
+                          <a href="/">coverageprincipal.com</a> of all
                           worldwide right, title, and interest in all copyrights
                           and other intellectual property rights in the
-                          Comments. <a href="/">Policywagon.com</a>{" "}
+                          Comments. <a href="/">coverageprincipal.com</a>{" "}
                           will be entitled to use, reproduce, disclose, publish
                           and distribute any Comments you submit for any purpose
                           whatsoever, without restriction and without
@@ -434,7 +434,7 @@ export default function Page() {
                           artwork. You agree not to submit any Comments that may
                           be submitted in violation of law or any agreement or
                           obligation to keep the content of such Comments
-                          confidential. <a href="/">Policywagon.com</a>{" "}
+                          confidential. <a href="/">coverageprincipal.com</a>{" "}
                           expressly disclaims any interest in any Comments that
                           you are not authorized to submit. Of course, any
                           information you submit which personally identifies you
@@ -446,7 +446,7 @@ export default function Page() {
                           If you have questions regarding these SMS Terms and
                           Conditions, please call +1(877)208-8211 or reach out
                           to us via email at{" "}
-                          <a href="https://policywagon.com/cdn-cgi/l/email-protection#a8cbc7c6dcc9cbdce8d8c7c4c1cbd1dfc9cfc7c686cbc7c5">
+                          <a href="coverageprincipal.comcdn-cgi/l/email-protection#a8cbc7c6dcc9cbdce8d8c7c4c1cbd1dfc9cfc7c686cbc7c5">
                             <span
                               className="__cf_email__"
                               data-cfemail="1c7f7372687d7f685c6c7370757f656b7d7b7372327f7371"
@@ -476,7 +476,7 @@ export default function Page() {
             </div>
             <div className="Footer--disclaimer--lR02g">
               <p>
-                Policywagon.com is an online insurance referral site. We match
+                CoveragePrincipal.com is an online insurance referral site. We match
                 and directly connect consumers with insurance companies and
                 agents across the US. Our site does not provide quotes directly
                 to consumers and is not in any way affiliated with any of the
@@ -487,7 +487,7 @@ export default function Page() {
                 information purposes only. This website contains affiliate
                 marketing links and phone numbers which means that the operators
                 of this site may get paid commission on sales of the products or
-                services advertised. Policywagon.com provides access to
+                services advertised. CoveragePrincipal.com provides access to
                 independent auto insurance services and acts as an affiliate to
                 these services. Your access to this website is subject to its{" "}
                 <a href="terms">Terms and Conditions</a>. California residents
@@ -497,7 +497,7 @@ export default function Page() {
               <p>
                 Please note that lowest listed rates and potential savings may
                 not be representative or available from all companies.
-                Policywagon.com matches users to advertisers and insurance
+                CoveragePrincipal.com matches users to advertisers and insurance
                 agents only after we've received certain information from you,
                 and your actual rates and savings will vary based on your
                 location, coverage limits, deductibles, driving records, type of

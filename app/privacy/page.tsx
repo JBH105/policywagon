@@ -14,7 +14,7 @@ export default function Page() {
               >
                 <img
                   className="logoContainer"
-                  src="/images/logoSlim.svg"
+                  src="/images/logo1.svg"
                   loading="eager"
                 />
               </a>
@@ -68,7 +68,7 @@ export default function Page() {
                 <div className="d-flex align-items-center">
                   <img
                     className="logoContainer"
-                    src="/images/logoSlim.svg"
+                    src="/images/logo1.svg"
                     loading="eager"
                   />
                   <button
@@ -188,7 +188,7 @@ export default function Page() {
                           Any questions regarding our Privacy Policy or
                           information collection practices should be sent to us
                           via email at{" "}
-                          <a href="https://policywagon.com/cdn-cgi/l/email-protection#0b6864657f6a687f4b7b64676268727c6a6c646525686466">
+                          <a href="coverageprincipal.comcdn-cgi/l/email-protection#0b6864657f6a687f4b7b64676268727c6a6c646525686466">
                             <span
                               className="__cf_email__"
                               data-cfemail="0e6d61607a6f6d7a4e7e6162676d77796f696160206d6163"
@@ -314,7 +314,7 @@ export default function Page() {
                           address. Your insurance carrier will have specific
                           instructions on how to update your contact
                           information, if necessary. Please note that{" "}
-                          <a href="/">policywagon.com</a> cannot update
+                          <a href="/">coverageprincipal.com</a> cannot update
                           your information for you.
                         </p>
                         <p>
@@ -329,7 +329,7 @@ export default function Page() {
                         <p>
                           {" "}
                           We operate, own and maintain{" "}
-                          <a href="/">policywagon.com</a> and may be
+                          <a href="/">coverageprincipal.com</a> and may be
                           referred to as ‘company’, ‘us’, ‘our’, ‘we’, ‘site’ or
                           ‘website’ throughout this document and website.
                           Through the use of this site, we also operate a
@@ -351,7 +351,7 @@ export default function Page() {
                           receive these contacts from us for as long as you
                           agree to them. Please review our SMS Terms and
                           Conditions for more details{" "}
-                          <a href="sms">policywagon.com/sms</a>.
+                          <a href="sms">CoveragePrincipal.com/sms</a>.
                         </p>
                         <h3>Compliance with Do-Not-Call Registry</h3>
                         <p>
@@ -371,7 +371,7 @@ export default function Page() {
                         </p>
                         <p>
                           {" "}
-                          <a href="/">Policywagon.com</a> does not make
+                          <a href="/">coverageprincipal.com</a> does not make
                           outbound phone calls to consumers, and therefore does
                           not maintain an internal do not call registry of its
                           own. If you no longer wish to receive phone calls from
@@ -385,7 +385,7 @@ export default function Page() {
                         <p>
                           {" "}
                           PERSONAL INFORMATION:{" "}
-                          <a href="/">policywagon.com</a> collects
+                          <a href="/">coverageprincipal.com</a> collects
                           information from both existing and prospective
                           customers in an attempt to connect them with insurance
                           carriers for the products and services they request.
@@ -423,7 +423,7 @@ export default function Page() {
                           {" "}
                           When you use our services and submit an insurance
                           policy request form via{" "}
-                          <a href="/">policywagon.com</a>, you provide
+                          <a href="/">coverageprincipal.com</a>, you provide
                           your consent to share all the information you provide
                           to us with our network of insurance carriers, these
                           will include insurance carriers that we have completed
@@ -498,7 +498,7 @@ export default function Page() {
                           insurance carriers in our network, you can still
                           submit a request to obtain this information. Please
                           send an email message to{" "}
-                          <a href="https://policywagon.com/cdn-cgi/l/email-protection#abc8c4c5dfcac8dfebdbc4c7c2c8d2dccaccc4c585c8c4c6">
+                          <a href="coverageprincipal.comcdn-cgi/l/email-protection#abc8c4c5dfcac8dfebdbc4c7c2c8d2dccaccc4c585c8c4c6">
                             <span
                               className="__cf_email__"
                               data-cfemail="88ebe7e6fce9ebfcc8f8e7e4e1ebf1ffe9efe7e6a6ebe7e5"
@@ -527,8 +527,8 @@ export default function Page() {
                           insurance carriers of our network in order to fulfill
                           your insurance policy request. If at any time you wish
                           to opt out from receiving communications from{" "}
-                          <a href="/">policywagon.com</a>, please email{" "}
-                          <a href="https://policywagon.com/cdn-cgi/l/email-protection#fa9995948e9b998eba8a95969399838d9b9d9594d4999597">
+                          <a href="/">coverageprincipal.com</a>, please email{" "}
+                          <a href="coverageprincipal.comcdn-cgi/l/email-protection#fa9995948e9b998eba8a95969399838d9b9d9594d4999597">
                             <span
                               className="__cf_email__"
                               data-cfemail="02616d6c7663617642726d6e6b617b7563656d6c2c616d6f"
@@ -540,12 +540,12 @@ export default function Page() {
                           to the do not contact list. Unsubscribe function
                           instructions can also be found on any email or sms
                           communications from{" "}
-                          <a href="/">policywagon.com</a>, or you can
+                          <a href="/">coverageprincipal.com</a>, or you can
                           use the unsubscribe feature here:{" "}
-                          <a href="unsubscribe">policywagon.com/unsubscribe</a>.
+                          <a href="unsubscribe">CoveragePrincipal.com/unsubscribe</a>.
                         </p>
                         If you are eventually contacted by any of{" "}
-                        <a href="/">policywagon.com</a>’s insurance
+                        <a href="/">coverageprincipal.com</a>’s insurance
                         carriers, you should notify them directly of your
                         choices regardingtheir use and sharing of your
                         information and if you so choose, you shouldcommunicate
@@ -560,10 +560,10 @@ export default function Page() {
                           Under the California Consumer Protection Act of 2018,
                           a consumer has the right to request, via verifiable
                           request method, that{" "}
-                          <a href="/">policywagon.com</a> delete any
+                          <a href="/">coverageprincipal.com</a> delete any
                           personal information about the consumer that has been
                           collected. Upon receipt of such request,{" "}
-                          <a href="/">policywagon.com</a> shall delete
+                          <a href="/">coverageprincipal.com</a> shall delete
                           the information and shall direct its insurance
                           carriers to delete the information from its records as
                           well, except under limited circumstances where the
@@ -571,10 +571,10 @@ export default function Page() {
                           transaction for which the personal information was
                           collected, provide a good or service requested by the
                           consumer, or reasonably anticipated within the context
-                          of <a href="/">policywagon.com</a>’s ongoing
+                          of <a href="/">coverageprincipal.com</a>’s ongoing
                           business relationship with the consumer, or otherwise
                           perform a contract between{" "}
-                          <a href="/">policywagon.com</a> and the
+                          <a href="/">coverageprincipal.com</a> and the
                           consumer; (2) detect security incidents; protect
                           against malicious, deceptive, fraudulent, or illegal
                           activity; or prosecute those responsible for that
@@ -589,7 +589,7 @@ export default function Page() {
                           interest; (7) to enable solely internal uses that are
                           reasonably aligned with the expectations of the
                           consumer based on the consumer’s relationship with{" "}
-                          <a href="/">policywagon.com</a>; (8) comply
+                          <a href="/">coverageprincipal.com</a>; (8) comply
                           with a legal obligation; (9) otherwise use the
                           consumer’s personal information, internally, in a
                           lawful manner that is compatible with the context in
@@ -598,13 +598,13 @@ export default function Page() {
                         <p>
                           {" "}
                           Any information you provide to{" "}
-                          <a href="/">policywagon.com</a> will be
+                          <a href="/">coverageprincipal.com</a> will be
                           retained until you make the decision to cancel your
                           account with us. If you want to cancel your account or
                           if you want to request that we no longer use your
                           information to provide you with products and services,
                           you can contact us at{" "}
-                          <a href="https://policywagon.com/cdn-cgi/l/email-protection#caa9a5a4beaba9be8abaa5a6a3a9b3bdabada5a4e4a9a5a7">
+                          <a href="coverageprincipal.comcdn-cgi/l/email-protection#caa9a5a4beaba9be8abaa5a6a3a9b3bdabada5a4e4a9a5a7">
                             <span
                               className="__cf_email__"
                               data-cfemail="aecdc1c0dacfcddaeedec1c2c7cdd7d9cfc9c1c080cdc1c3"
@@ -622,10 +622,10 @@ export default function Page() {
                           Should you decide to exercise any of the
                           above-mentioned rights under the California Consumer
                           Protection Act,{" "}
-                          <a href="/">policywagon.com</a> is prohibited
+                          <a href="/">coverageprincipal.com</a> is prohibited
                           from discriminating against that consumer for that
                           exercise. However, important to note is that{" "}
-                          <a href="/">policywagon.com</a> also offers a
+                          <a href="/">coverageprincipal.com</a> also offers a
                           different price, rate, level, or quality of goods or
                           services to the consumer if that price or difference
                           is directly related to the value provided to the
@@ -655,13 +655,13 @@ export default function Page() {
                           incredibly important to us, we use industry recognized
                           methods to protect the information you provide to us
                           as it is being transmitted to{" "}
-                          <a href="/">policywagon.com</a>, and after we
+                          <a href="/">coverageprincipal.com</a>, and after we
                           have received it. There is no method of data
                           transmission or storage that is 100% fail-proof, so we
                           cannot guarantee the absolute security of your
                           information. For more questions about the security
                           methods used on our website, please contact us at{" "}
-                          <a href="https://policywagon.com/cdn-cgi/l/email-protection#0c6f6362786d6f784c7c6360656f757b6d6b6362226f6361">
+                          <a href="coverageprincipal.comcdn-cgi/l/email-protection#0c6f6362786d6f784c7c6360656f757b6d6b6362226f6361">
                             <span
                               className="__cf_email__"
                               data-cfemail="26454948524745526656494a4f455f51474149480845494b"
@@ -717,7 +717,7 @@ export default function Page() {
                           This site also provides links to external sites, and
                           our Privacy Policy does not cover these websites.
                           Should you choose to leave{" "}
-                          <a href="/">policywagon.com</a> via a link
+                          <a href="/">coverageprincipal.com</a> via a link
                           you find on our site, you should read and review the
                           Privacy Policies associated with these websites
                           thoroughly, as they may contain different terms.
@@ -727,9 +727,9 @@ export default function Page() {
                           {" "}
                           If you would like to verify, correct, update or delete
                           any of the information you have provided to{" "}
-                          <a href="/">policywagon.com</a>, please
+                          <a href="/">coverageprincipal.com</a>, please
                           contact us at{" "}
-                          <a href="https://policywagon.com/cdn-cgi/l/email-protection#9af9f5f4eefbf9eedaeaf5f6f3f9e3edfbfdf5f4b4f9f5f7">
+                          <a href="coverageprincipal.comcdn-cgi/l/email-protection#9af9f5f4eefbf9eedaeaf5f6f3f9e3edfbfdf5f4b4f9f5f7">
                             <span
                               className="__cf_email__"
                               data-cfemail="33505c5d4752504773435c5f5a504a4452545c5d1d505c5e"
@@ -743,7 +743,7 @@ export default function Page() {
                         <p>
                           {" "}
                           From time to time,{" "}
-                          <a href="/">policywagon.com</a> may make
+                          <a href="/">coverageprincipal.com</a> may make
                           changes to this Privacy Policy without further notice
                           to its users. You should continue to review this
                           Policy periodically to ensure that you are up-to-date
@@ -770,7 +770,7 @@ export default function Page() {
             </div>
             <div className="Footer--disclaimer--lR02g">
               <p>
-                Policywagon.com is an online insurance referral site. We match
+                CoveragePrincipal.com is an online insurance referral site. We match
                 and directly connect consumers with insurance companies and
                 agents across the US. Our site does not provide quotes directly
                 to consumers and is not in any way affiliated with any of the
@@ -781,7 +781,7 @@ export default function Page() {
                 information purposes only. This website contains affiliate
                 marketing links and phone numbers which means that the operators
                 of this site may get paid commission on sales of the products or
-                services advertised. Policywagon.com provides access to
+                services advertised. CoveragePrincipal.com provides access to
                 independent auto insurance services and acts as an affiliate to
                 these services. Your access to this website is subject to its{" "}
                 <a href="terms">Terms and Conditions</a>. California residents
@@ -791,7 +791,7 @@ export default function Page() {
               <p>
                 Please note that lowest listed rates and potential savings may
                 not be representative or available from all companies.
-                Policywagon.com matches users to advertisers and insurance
+                CoveragePrincipal.com matches users to advertisers and insurance
                 agents only after we've received certain information from you,
                 and your actual rates and savings will vary based on your
                 location, coverage limits, deductibles, driving records, type of

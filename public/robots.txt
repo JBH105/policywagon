@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Sitemap: https://policywagon.com/sitemap/sitemap-index.xml
+Sitemap: coverageprincipal.comsitemap/sitemap-index.xml

@@ -10,7 +10,7 @@ export default function Page() {
               <div className="col">
                 <img
                   className="logoContainer"
-                  src="/images/logoSlim.svg"
+                  src="/images/logo1.svg"
                   loading="eager"
                 />
               </div>
@@ -47,7 +47,7 @@ export default function Page() {
               <div className="container">
                 <h2>CCPA - “Do Not Sell My Information”</h2>
                 <p>
-                  policywagon.com collects certain information from both
+                  CoveragePrincipal.com collects certain information from both
                   existing and prospective customers in an attempt to connect
                   them with the products and services they request in. Under the{" "}
                   <a href="https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=3.&part=4.&lawCode=CIV&title=1.81.5">
@@ -58,14 +58,14 @@ export default function Page() {
                 <ul className="mb-4" />
                 <div>
                   <p>
-                    Any information you provide to policywagon.com will be
+                    Any information you provide to CoveragePrincipal.com will be
                     retained until you make the decision to cancel your account
                     with us. If you or your authorized agent would like to
                     cancel your account or if you would like to request that we
                     no longer use your information to provide you with products
                     and services, please fill out the form below or submit your
                     request by emailing us at{" "}
-                    <a href="https://policywagon.com/cdn-cgi/l/email-protection#ef8c80819b8e8c9baf9f8083868c96988e888081c18c8082">
+                    <a href="coverageprincipal.comcdn-cgi/l/email-protection#ef8c80819b8e8c9baf9f8083868c96988e888081c18c8082">
                       <span
                         className="__cf_email__"
                         data-cfemail="a6c5c9c8d2c7c5d2e6d6c9cacfc5dfd1c7c1c9c888c5c9cb"

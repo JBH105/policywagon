@@ -178,8 +178,8 @@ export default function FormPage() {
         >
           {/* Logo */}
           <img
-            src="/images/logoSlim.svg"
-            alt="PolicyWagon"
+            src="/images/logo1.svg"
+            alt="CoveragePrincipal"
             style={{ width: 200, maxWidth: "60vw" }}
           />
 
@@ -222,7 +222,7 @@ export default function FormPage() {
             <div className="row">
               <div className="col-8 col-sm-auto">
                 <a className="LogoLinksButton--logo--VCaLy" aria-label="Go Home" href="/">
-                  <img className="logoContainer" src="/images/logoSlim.svg" loading="eager" alt="PolicyWagon" />
+                  <img className="logoContainer" src="/images/logo1.svg" loading="eager" alt="CoveragePrincipal" />
                 </a>
               </div>
               <div className="col d-none d-lg-flex LogoLinksButton--links--wYaiL">
@@ -270,7 +270,7 @@ export default function FormPage() {
               </div>
               <div className="Footer--disclaimer--lR02g">
                 <p>
-                  Policywagon.com is an online insurance referral site. We match and directly connect consumers with
+                  CoveragePrincipal.com is an online insurance referral site. We match and directly connect consumers with
                   insurance companies and agents across the US. Our site does not provide quotes directly to consumers
                   and is not in any way affiliated with any of the insurance carriers. We do not provide insurance and
                   we do not represent any specific insurance provider or automobile company. All trademarks and
