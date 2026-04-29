@@ -137,8 +137,26 @@ export default function FormPage() {
         return;
       }
 
-      /* Register a fresh click via EF.click() */
-      const clickParams = { offer_id: offerId, affiliate_id: affiliateId };
+      /* Register a fresh click via EF.click(). Per Everflow's reference
+         snippet, .then() resolves with the transaction_id as a STRING,
+         not an object — extracting r?.transaction_id is therefore wrong. */
+      const clickParams = {
+        offer_id: offerId,
+        affiliate_id: affiliateId,
+        source_id: EF.urlParameter("source_id"),
+        sub1: EF.urlParameter("sub1"),
+        sub2: EF.urlParameter("sub2"),
+        sub3: EF.urlParameter("sub3"),
+        sub4: EF.urlParameter("sub4"),
+        sub5: EF.urlParameter("sub5"),
+        uid: EF.urlParameter("uid"),
+        transaction_id: urlTransactionId,
+      };
+
+      /* Normalize whatever EF.click resolves with — string OR object — into
+         a transaction_id string. */
+      const extractTxId = (v: any): string =>
+        typeof v === "string" ? v : (v?.transaction_id || "");
 
       /* Safeguard: if EF.click() never resolves within 3 s, still emit the
          offer/affiliate IDs we already have from the URL. */
@@ -152,13 +170,11 @@ export default function FormPage() {
         const result = EF.click(clickParams);
         if (result && typeof result.then === "function") {
           result
-            .then((r: any) => {
+            .then((tx: any) => {
               clearTimeout(efFallback);
-              callMediaAlpha(
-                r?.offer_id || offerId,
-                r?.affiliate_id || affiliateId,
-                r?.transaction_id || ""
-              );
+              const transactionId = extractTxId(tx);
+              console.log("[EF] Transaction ID:", transactionId);
+              callMediaAlpha(offerId, affiliateId, transactionId);
             })
             .catch(() => {
               clearTimeout(efFallback);
@@ -166,11 +182,7 @@ export default function FormPage() {
             });
         } else {
           clearTimeout(efFallback);
-          callMediaAlpha(
-            result?.offer_id || offerId,
-            result?.affiliate_id || affiliateId,
-            result?.transaction_id || result || ""
-          );
+          callMediaAlpha(offerId, affiliateId, extractTxId(result));
         }
       } catch {
         clearTimeout(efFallback);
