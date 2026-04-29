@@ -66,13 +66,16 @@ export default function FormPage() {
       }
     }
 
-    /* Read transaction_id from Everflow's own attribution cookies.
-       EF writes:
-         ef_tid_c_o_<offer_id>=<transaction_id>
-         ef_tid_c_a_<affiliate_id>=<transaction_id>
-       on the original click. Both carry the same transaction_id; the offer
-       cookie also tells us the offer_id, and the affiliate cookie tells us
-       the affiliate_id. */
+    /* Read offer_id, affiliate_id, transaction_id from Everflow's cookies.
+       EF writes (first-party, on this domain):
+         ef_tid_c_o_<offer_id>=<transaction_id>      // offer-scoped tx
+         ef_tid_c_a_<advertiser_id>=<transaction_id> // advertiser-scoped tx (NOT affiliate)
+         ef_affid=<affiliate_id>                     // affiliate id (dedicated cookie)
+         ef_session_<offer_id>=1                     // session marker
+       Both ef_tid_c_o_* and ef_tid_c_a_* carry the same transaction_id, so
+       either can populate it. The trailing number on ef_tid_c_a_* is EF's
+       advertiser id, not the affiliate id — the affiliate id lives in
+       ef_affid. */
     function readEFCookies() {
       let transactionId = "", offerId = "", affiliateId = "";
       document.cookie.split(/;\s*/).forEach(c => {
@@ -81,51 +84,68 @@ export default function FormPage() {
         const name = c.slice(0, eq);
         const value = decodeURIComponent(c.slice(eq + 1));
         if (!value) return;
+
         let m = name.match(/^ef_tid_c_o_(\d+)$/);
-        if (m) { transactionId = value; offerId = m[1]; return; }
+        if (m) { transactionId = value; offerId = offerId || m[1]; return; }
+
         m = name.match(/^ef_tid_c_a_(\d+)$/);
-        if (m) { transactionId = transactionId || value; affiliateId = m[1]; }
+        if (m) { transactionId = transactionId || value; return; }
+
+        if (name === "ef_affid") { affiliateId = value; return; }
+
+        m = name.match(/^ef_session_(\d+)$/);
+        if (m) { offerId = offerId || m[1]; }
       });
       return { offerId, affiliateId, transactionId };
     }
 
-    /* Run EF.click() then call MediaAlpha */
+    /* Resolve offer_id, affiliate_id, transaction_id and call MediaAlpha.
+
+       URL contract (per client): ?_ef_transaction_id=<tx>&ef_oid=<o>&ef_aid=<a>&oid=<o>&affid=<a>
+         oid / affid           → direct-link offer & affiliate IDs
+         ef_oid / ef_aid       → same IDs forwarded by an EF redirect
+         _ef_transaction_id    → tx_id when EF redirected the visitor
+
+       Resolution order:
+         offerId       : oid → ef_oid → cookie → ""
+         affiliateId   : affid → ef_aid → cookie → ""
+         transactionId : _ef_transaction_id → cookie → EF.click() → "" */
     function runEF() {
       if (done.current) return;
       done.current = true;
 
       const EF = (window as any).EF;
 
-      /* Redirect scenario – all params already in URL */
-      const urlTransactionId = EF.urlParameter("_ef_transaction_id");
-      const urlOfferId = EF.urlParameter("ef_oid");
-      const urlAffiliateId = EF.urlParameter("ef_aid");
-      if (urlTransactionId && urlOfferId && urlAffiliateId) {
-        callMediaAlpha(urlOfferId, urlAffiliateId, urlTransactionId);
-        return;
-      }
-
-      /* Returning-visitor scenario – EF already wrote attribution cookies
-         on a prior click. Reuse that transaction_id instead of registering
-         a new one. */
+      const urlOfferId = EF.urlParameter("oid") || EF.urlParameter("ef_oid") || "";
+      const urlAffiliateId = EF.urlParameter("affid") || EF.urlParameter("ef_aid") || "";
+      const urlTransactionId = EF.urlParameter("_ef_transaction_id") || "";
       const cookie = readEFCookies();
-      if (cookie.transactionId) {
-        callMediaAlpha(
-          cookie.offerId || EF.urlParameter("oid") || "",
-          cookie.affiliateId || EF.urlParameter("affid") || "",
-          cookie.transactionId
-        );
+
+      const offerId = urlOfferId || cookie.offerId || "";
+      const affiliateId = urlAffiliateId || cookie.affiliateId || "";
+
+      /* Transaction_id already present in URL */
+      if (urlTransactionId) {
+        callMediaAlpha(offerId, affiliateId, urlTransactionId);
         return;
       }
 
-      /* Direct-link scenario */
-      const clickParams = {
-        offer_id: EF.urlParameter("oid"),
-        affiliate_id: EF.urlParameter("affid"),
-      };
+      /* Returning-visitor – EF already wrote attribution cookies on a prior
+         click. Reuse that transaction_id instead of registering a new one. */
+      if (cookie.transactionId) {
+        callMediaAlpha(offerId, affiliateId, cookie.transactionId);
+        return;
+      }
 
-      /* Safeguard: if EF.click() never resolves within 3 s */
-      const efFallback = setTimeout(() => callMediaAlpha("", "", ""), 3000);
+      /* Register a fresh click via EF.click() */
+      const clickParams = { offer_id: offerId, affiliate_id: affiliateId };
+
+      /* Safeguard: if EF.click() never resolves within 3 s, still emit the
+         offer/affiliate IDs we already have from the URL. */
+      const efFallback = setTimeout(
+        () => callMediaAlpha(offerId, affiliateId, ""),
+        3000
+      );
       timers.push(efFallback);
 
       try {
@@ -135,23 +155,26 @@ export default function FormPage() {
             .then((r: any) => {
               clearTimeout(efFallback);
               callMediaAlpha(
-                r?.offer_id || clickParams.offer_id || "",
-                r?.affiliate_id || clickParams.affiliate_id || "",
+                r?.offer_id || offerId,
+                r?.affiliate_id || affiliateId,
                 r?.transaction_id || ""
               );
             })
-            .catch(() => { clearTimeout(efFallback); callMediaAlpha("", "", ""); });
+            .catch(() => {
+              clearTimeout(efFallback);
+              callMediaAlpha(offerId, affiliateId, "");
+            });
         } else {
           clearTimeout(efFallback);
           callMediaAlpha(
-            result?.offer_id || clickParams.offer_id || "",
-            result?.affiliate_id || clickParams.affiliate_id || "",
+            result?.offer_id || offerId,
+            result?.affiliate_id || affiliateId,
             result?.transaction_id || result || ""
           );
         }
       } catch {
         clearTimeout(efFallback);
-        callMediaAlpha("", "", "");
+        callMediaAlpha(offerId, affiliateId, "");
       }
     }
 
@@ -174,9 +197,16 @@ export default function FormPage() {
       }
 
       if (!(window as any).EF) {
-        /* EF script unavailable → still try cookies it may have set previously */
+        /* EF script unavailable → fall back to URL params + cookies (no EF SDK) */
+        const params = new URLSearchParams(window.location.search);
         const cookie = readEFCookies();
-        callMediaAlpha(cookie.offerId, cookie.affiliateId, cookie.transactionId);
+        const offerId =
+          params.get("oid") || params.get("ef_oid") || cookie.offerId || "";
+        const affiliateId =
+          params.get("affid") || params.get("ef_aid") || cookie.affiliateId || "";
+        const transactionId =
+          params.get("_ef_transaction_id") || cookie.transactionId || "";
+        callMediaAlpha(offerId, affiliateId, transactionId);
         return;
       }
 
