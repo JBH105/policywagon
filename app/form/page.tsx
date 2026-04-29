@@ -66,6 +66,28 @@ export default function FormPage() {
       }
     }
 
+    /* Read transaction_id from Everflow's own attribution cookies.
+       EF writes:
+         ef_tid_c_o_<offer_id>=<tx_id>
+         ef_tid_c_a_<affiliate_id>=<tx_id>
+       on the original click. Both carry the same tx_id; the offer cookie
+       also tells us the offer_id, and the affiliate cookie tells us affid. */
+    function readEFCookies() {
+      let txId = "", oid = "", affid = "";
+      document.cookie.split(/;\s*/).forEach(c => {
+        const eq = c.indexOf("=");
+        if (eq < 0) return;
+        const name = c.slice(0, eq);
+        const value = decodeURIComponent(c.slice(eq + 1));
+        if (!value) return;
+        let m = name.match(/^ef_tid_c_o_(\d+)$/);
+        if (m) { txId = value; oid = m[1]; return; }
+        m = name.match(/^ef_tid_c_a_(\d+)$/);
+        if (m) { txId = txId || value; affid = m[1]; }
+      });
+      return { txId, oid, affid };
+    }
+
     /* Run EF.click() then call MediaAlpha */
     function runEF() {
       if (done.current) return;
@@ -79,6 +101,18 @@ export default function FormPage() {
       const urlAffid = EF.urlParameter("ef_aid");
       if (urlTxId && urlOid && urlAffid) {
         callMediaAlpha(urlTxId, urlOid, urlAffid);
+        return;
+      }
+
+      /* Returning-visitor scenario – EF already wrote attribution cookies
+         on a prior click. Reuse that tx_id instead of registering a new one. */
+      const cookie = readEFCookies();
+      if (cookie.txId) {
+        callMediaAlpha(
+          cookie.txId,
+          cookie.oid || EF.urlParameter("oid") || "",
+          cookie.affid || EF.urlParameter("affid") || ""
+        );
         return;
       }
 
@@ -138,8 +172,9 @@ export default function FormPage() {
       }
 
       if (!(window as any).EF) {
-        /* EF completely unavailable → show widget with empty subs */
-        callMediaAlpha("", "", "");
+        /* EF script unavailable → still try cookies it may have set previously */
+        const cookie = readEFCookies();
+        callMediaAlpha(cookie.txId, cookie.oid, cookie.affid);
         return;
       }
 
